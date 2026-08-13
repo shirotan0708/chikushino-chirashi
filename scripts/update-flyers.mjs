@@ -9,7 +9,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUTPUT_PATH = `${__dirname}/../data/flyers.json`;
 
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const GEMINI_MODEL = "gemini-2.0-flash";
+const GEMINI_MODEL = "gemini-flash-latest";
 const UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) chikushino-chirashi-bot";
 
 const CATEGORIES = [
