@@ -13,74 +13,133 @@
     font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
     background: #f7f5f0;
     color: #2b2620;
-    padding: 24px;
+    padding: 20px 16px 40px;
   }
   .wrap { max-width: 1100px; margin: 0 auto; }
-  header { margin-bottom: 20px; }
-  h1 { font-size: 22px; margin: 0 0 4px; }
+  header { margin-bottom: 16px; }
+  h1 { font-size: 21px; margin: 0 0 4px; }
   .updated { color: #7a7266; font-size: 13px; }
-  .notice {
-    background: #fff6ea;
-    border: 1px solid #f0d9a8;
-    border-radius: 10px;
-    padding: 12px 16px;
-    font-size: 13px;
-    color: #6b5a2f;
-    margin-bottom: 20px;
-    line-height: 1.6;
+
+  /* 本日の最安ハイライト */
+  .hero-heading {
+    font-size: 15px;
+    font-weight: 800;
+    margin: 18px 0 10px;
   }
+  .hero-scroll {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 4px 2px 12px;
+    -webkit-overflow-scrolling: touch;
+  }
+  .hero-card {
+    flex: 0 0 auto;
+    width: 138px;
+    border-radius: 16px;
+    padding: 12px 12px 10px;
+    color: #fff;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+  }
+  .hero-icon { font-size: 26px; line-height: 1; }
+  .hero-category { font-size: 11px; opacity: 0.9; margin-top: 4px; font-weight: 600; }
+  .hero-name {
+    font-size: 12.5px;
+    font-weight: 700;
+    margin-top: 6px;
+    line-height: 1.3;
+    min-height: 2.6em;
+  }
+  .hero-price { font-size: 20px; font-weight: 800; margin-top: 4px; }
+  .hero-unit { font-size: 10px; opacity: 0.85; font-weight: 500; }
+  .hero-store { font-size: 10.5px; margin-top: 6px; opacity: 0.95; display: flex; align-items: center; gap: 4px; }
+  .hero-dot { width: 7px; height: 7px; border-radius: 50%; background: #fff; flex: 0 0 auto; }
 
   /* カテゴリ別比較 */
-  .category-section { margin-bottom: 22px; }
+  .category-section { margin-bottom: 20px; }
   .category-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
     font-size: 15px;
-    font-weight: 700;
-    margin: 0 0 8px;
-    padding-left: 10px;
-    border-left: 4px solid #b5590a;
+    font-weight: 800;
+    margin: 0 0 10px;
+  }
+  .category-title .badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    font-size: 16px;
   }
   .category-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
     gap: 10px;
   }
   .store-col {
     background: #fff;
-    border: 1px solid #e6e0d4;
-    border-radius: 10px;
-    padding: 10px 12px;
+    border-radius: 14px;
+    padding: 12px 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border-top: 4px solid var(--store-color, #b5590a);
   }
   .store-col h4 {
-    margin: 0 0 6px;
-    font-size: 12px;
-    color: #7a7266;
-    font-weight: 600;
+    margin: 0 0 8px;
+    font-size: 12.5px;
+    color: #55504a;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .store-col h4 .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--store-color, #b5590a);
+    flex: 0 0 auto;
   }
   .item-row {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     gap: 8px;
-    padding: 4px 0;
+    padding: 5px 0;
     font-size: 13px;
     border-bottom: 1px dashed #eee;
   }
   .item-row:last-child { border-bottom: none; }
-  .item-name { flex: 1; }
-  .item-price { font-weight: 700; color: #b5590a; white-space: nowrap; }
+  .item-name { flex: 1; line-height: 1.35; }
+  .item-price { font-weight: 800; color: #b5590a; white-space: nowrap; font-size: 14.5px; }
   .item-price.cheapest { color: #1a7a3c; }
-  .item-unit { color: #999; font-size: 11px; margin-left: 2px; }
+  .item-price.cheapest::before { content: "👑 "; font-size: 11px; }
+  .item-unit { color: #999; font-size: 10.5px; margin-left: 2px; font-weight: 500; }
   .no-items { color: #bbb; font-size: 12px; }
+
+  .notice {
+    background: #fff6ea;
+    border: 1px solid #f0d9a8;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-size: 12.5px;
+    color: #6b5a2f;
+    margin-bottom: 4px;
+    line-height: 1.6;
+  }
 
   /* フォールバック（画像リンクのみ）表示 */
   .store {
     background: #fff;
     border: 1px solid #e6e0d4;
     border-radius: 12px;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
     overflow: hidden;
   }
   .store-head {
-    padding: 14px 18px;
+    padding: 12px 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,9 +148,9 @@
     gap: 12px;
     flex-wrap: wrap;
   }
-  .store-head h3 { margin: 0; font-size: 15px; }
+  .store-head h3 { margin: 0; font-size: 14px; }
   .status-na { color: #a0522d; font-size: 12px; font-weight: 600; white-space: nowrap; }
-  .na-box { padding: 14px 18px; font-size: 13px; color: #5a5348; line-height: 1.6; }
+  .na-box { padding: 12px 16px; font-size: 13px; color: #5a5348; line-height: 1.6; }
   .na-box a {
     display: inline-block;
     margin-top: 6px;
@@ -106,7 +165,7 @@
   }
   .na-box a:hover { background: #ffe6bf; }
 
-  h2.section-heading { font-size: 14px; color: #7a7266; margin: 24px 0 10px; }
+  h2.section-heading { font-size: 13px; color: #7a7266; margin: 22px 0 10px; font-weight: 700; }
   .source-links {
     display: flex;
     flex-wrap: wrap;
@@ -123,19 +182,22 @@
     font-size: 12px;
   }
   .source-links a:hover { background: #faf8f3; }
-  footer { font-size: 11px; color: #999; margin-top: 16px; line-height: 1.6; }
+
+  footer { font-size: 11px; color: #999; margin-top: 20px; line-height: 1.6; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>筑紫野・太宰府 スーパー特売チェッカー</h1>
+    <h1>🛒 筑紫野・太宰府 スーパー特売チェッカー</h1>
     <div class="updated" id="updatedLine">読み込み中...</div>
   </header>
 
   <div class="notice" id="noticeBox">
     毎朝、各店のチラシから目玉商品・価格をAIで自動的に読み取って表示しています。読み取れなかった店舗は元チラシへのリンクを表示します。
   </div>
+
+  <div id="heroContainer"></div>
 
   <div id="categoriesContainer"></div>
 
@@ -157,6 +219,15 @@ const STORE_LINK_LABEL = {
   "direx-hara": "トクバイで見る",
 };
 
+const STORE_COLOR = {
+  "meijiya-dazaifu": "#b5590a",
+  "yumetown-chikushino": "#1565c0",
+  "ropia-chikushino": "#2e7d32",
+  "marukyo-harada": "#ad1457",
+  "direx-hara": "#6a4c93",
+};
+const DEFAULT_STORE_COLOR = "#7a7266";
+
 const STATUS_LABEL = {
   fetch_failed: "チラシページを取得できませんでした",
   no_image_found: "チラシ画像が見つかりませんでした",
@@ -176,12 +247,59 @@ const CATEGORY_ICON = {
   "その他": "🛒",
 };
 
+function storeColor(id) {
+  return STORE_COLOR[id] || DEFAULT_STORE_COLOR;
+}
+
 function formatUpdatedAt(iso) {
   const d = new Date(iso);
   return d.toLocaleString("ja-JP", {
     year: "numeric", month: "long", day: "numeric", weekday: "short",
     hour: "2-digit", minute: "2-digit",
   });
+}
+
+function renderHero(data) {
+  const container = document.getElementById("heroContainer");
+  const storesWithItems = data.stores.filter(s => s.items && s.items.length > 0);
+  if (storesWithItems.length === 0) return;
+
+  const bestByCategory = [];
+  data.categories.forEach(category => {
+    let best = null;
+    storesWithItems.forEach(store => {
+      store.items
+        .filter(it => it.category === category)
+        .forEach(it => {
+          if (!best || it.price < best.item.price) best = { store, item: it };
+        });
+    });
+    if (best) bestByCategory.push({ category, ...best });
+  });
+
+  if (bestByCategory.length === 0) return;
+
+  const heading = document.createElement("div");
+  heading.className = "hero-heading";
+  heading.textContent = "🔥 本日の最安ハイライト";
+  container.appendChild(heading);
+
+  const scroll = document.createElement("div");
+  scroll.className = "hero-scroll";
+  scroll.innerHTML = bestByCategory.map(({ category, store, item }) => {
+    const color = storeColor(store.id);
+    const icon = CATEGORY_ICON[category] || "🛒";
+    return `
+      <div class="hero-card" style="background:${color}">
+        <div class="hero-icon">${icon}</div>
+        <div class="hero-category">${escapeHtml(category)}</div>
+        <div class="hero-name">${escapeHtml(item.name)}</div>
+        <div class="hero-price">¥${item.price}<span class="hero-unit">${item.unit ? " " + escapeHtml(item.unit) : ""}</span></div>
+        <div class="hero-store"><span class="hero-dot"></span>${escapeHtml(store.name)}</div>
+      </div>
+    `;
+  }).join("");
+  container.appendChild(scroll);
 }
 
 function renderCategories(data) {
@@ -207,18 +325,19 @@ function renderCategories(data) {
     section.className = "category-section";
 
     const cols = rows.map(({ store, items }) => {
+      const color = storeColor(store.id);
       const itemsHtml = items.map(it => `
         <div class="item-row">
           <span class="item-name">${escapeHtml(it.name)}</span>
           <span class="item-price ${it.price === minPrice ? "cheapest" : ""}">¥${it.price}${it.unit ? `<span class="item-unit">${escapeHtml(it.unit)}</span>` : ""}</span>
         </div>
       `).join("");
-      return `<div class="store-col"><h4>${escapeHtml(store.name)}</h4>${itemsHtml}</div>`;
+      return `<div class="store-col" style="--store-color:${color}"><h4><span class="dot"></span>${escapeHtml(store.name)}</h4>${itemsHtml}</div>`;
     }).join("");
 
     const icon = CATEGORY_ICON[category] || "🛒";
     section.innerHTML = `
-      <div class="category-title">${icon} ${escapeHtml(category)}</div>
+      <div class="category-title"><span class="badge">${icon}</span>${escapeHtml(category)}</div>
       <div class="category-grid">${cols}</div>
     `;
     container.appendChild(section);
@@ -281,6 +400,7 @@ fetch("data/flyers.json")
   })
   .then(data => {
     document.getElementById("updatedLine").textContent = "最終更新: " + formatUpdatedAt(data.updatedAt);
+    renderHero(data);
     renderCategories(data);
     renderFallback(data);
     renderSourceLinks(data);
