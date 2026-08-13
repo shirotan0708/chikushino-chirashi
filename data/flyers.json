@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T08:15:15.620Z",
+  "updatedAt": "2026-08-13T08:25:06.824Z",
   "categories": [
     "精肉",
     "鮮魚",
@@ -15,8 +15,129 @@
       "id": "meijiya-dazaifu",
       "name": "明治屋ジャンボ市 太宰府店",
       "sourceUrl": "https://chirashi-guide.com/%E7%A6%8F%E5%B2%A1%E7%9C%8C/%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%B8%82/178882/",
-      "status": "extract_failed",
-      "items": [],
+      "status": "ok",
+      "items": [
+        {
+          "name": "黒毛和牛 赤身切り落とし",
+          "price": 400,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "若とりムネ肉(袋)",
+          "price": 1000,
+          "unit": "1袋(2kg)",
+          "category": "精肉"
+        },
+        {
+          "name": "きゅうり",
+          "price": 100,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "種無し巨峰",
+          "price": 500,
+          "unit": "1パック",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "シルバーサーモンブロック",
+          "price": 259,
+          "unit": "100gあたり",
+          "category": "鮮魚"
+        },
+        {
+          "name": "うなぎ蒲焼き",
+          "price": 799,
+          "unit": "1尾",
+          "category": "鮮魚"
+        },
+        {
+          "name": "梨",
+          "price": 300,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "バナナ",
+          "price": 99,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "シャインマスカット",
+          "price": 1490,
+          "unit": "1箱",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "天然アルゼンチン赤エビ(生食用)",
+          "price": 199,
+          "unit": "100gあたり",
+          "category": "鮮魚"
+        },
+        {
+          "name": "黒毛和牛ミスジ焼肉用",
+          "price": 799,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "牛タン焼肉用",
+          "price": 799,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "博多の薫り",
+          "price": 499,
+          "unit": "1袋(550g)",
+          "category": "精肉"
+        },
+        {
+          "name": "天然本マグロ赤身ブロック",
+          "price": 892,
+          "unit": "100gあたり",
+          "category": "鮮魚"
+        },
+        {
+          "name": "ファンシーエッグ",
+          "price": 219,
+          "unit": "1パック(10個入)",
+          "category": "卵・乳製品"
+        },
+        {
+          "name": "やまなみ牛乳",
+          "price": 209,
+          "unit": "1本(1000ml)",
+          "category": "卵・乳製品"
+        },
+        {
+          "name": "プッチンプリン 3P",
+          "price": 169,
+          "unit": "1パック(67g×3)",
+          "category": "卵・乳製品"
+        },
+        {
+          "name": "黄金の味",
+          "price": 299,
+          "unit": "1本(360g)",
+          "category": "その他"
+        },
+        {
+          "name": "ボイルズワイガニ",
+          "price": 2990,
+          "unit": "1箱",
+          "category": "鮮魚"
+        },
+        {
+          "name": "フルーツざる盛りセット",
+          "price": 1490,
+          "unit": "1箱",
+          "category": "野菜・果物"
+        }
+      ],
       "flyerImageUrls": [
         "https://chirashi-guide.com/chirashi-file/2026/08/838/838-dazaifu_1830600_0.jpg"
       ]
@@ -25,8 +146,57 @@
       "id": "yumetown-chikushino",
       "name": "ゆめタウン筑紫野店",
       "sourceUrl": "https://tokubai.co.jp/%E3%82%86%E3%82%81%E3%82%BF%E3%82%A6%E3%83%B3/84624",
-      "status": "extract_failed",
-      "items": [],
+      "status": "ok",
+      "items": [
+        {
+          "name": "アールスメロン",
+          "price": 3980,
+          "unit": "1箱",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "巨峰",
+          "price": 1580,
+          "unit": "1房",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "シャインマスカット",
+          "price": 2380,
+          "unit": "1房",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "黒毛和牛焼肉用",
+          "price": 798,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産牛ステーキ用",
+          "price": 798,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "うなぎ長蒲焼",
+          "price": 1780,
+          "unit": "1尾",
+          "category": "鮮魚"
+        },
+        {
+          "name": "スモークサーモン",
+          "price": 580,
+          "unit": "1パック",
+          "category": "鮮魚"
+        },
+        {
+          "name": "海鮮手巻寿司",
+          "price": 699,
+          "unit": "1パック",
+          "category": "惣菜"
+        }
+      ],
       "flyerImageUrls": [
         "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=618/9578931.jpg?1786009989",
         "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=618/9578932.jpg?1786009979"
@@ -36,8 +206,153 @@
       "id": "ropia-chikushino",
       "name": "ロピア筑紫野シュロアモール店",
       "sourceUrl": "https://tokubai.co.jp/%E3%83%AD%E3%83%94%E3%82%A2/291677",
-      "status": "extract_failed",
-      "items": [],
+      "status": "ok",
+      "items": [
+        {
+          "name": "自社製骨付フランク",
+          "price": 580,
+          "unit": "6本入",
+          "category": "精肉"
+        },
+        {
+          "name": "伊藤ハム アルトバイエルン大袋",
+          "price": 699,
+          "unit": "450g",
+          "category": "精肉"
+        },
+        {
+          "name": "みなもと和牛 各種",
+          "price": 699,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "みなもと牛 各種",
+          "price": 599,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "牛タン焼肉用スライス",
+          "price": 599,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産若鶏手羽元",
+          "price": 49,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "天然有頭赤えび 生食用(解凍)",
+          "price": 1290,
+          "unit": "10尾",
+          "category": "鮮魚"
+        },
+        {
+          "name": "海鮮ほぼ具巻き(サーモン)",
+          "price": 1390,
+          "unit": "1パック",
+          "category": "鮮魚"
+        },
+        {
+          "name": "海鮮握り盛り合せ(粋)",
+          "price": 4900,
+          "unit": "27貫",
+          "category": "鮮魚"
+        },
+        {
+          "name": "生アトランティックサーモン刺身用(養殖)",
+          "price": 390,
+          "unit": "100gあたり",
+          "category": "鮮魚"
+        },
+        {
+          "name": "黒瀬ブリ刺身用",
+          "price": 390,
+          "unit": "100gあたり",
+          "category": "鮮魚"
+        },
+        {
+          "name": "エリンギ",
+          "price": 199,
+          "unit": "1パック",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "桃",
+          "price": 1290,
+          "unit": "1パック",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "幸水梨",
+          "price": 1290,
+          "unit": "1パック",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "ピーマン",
+          "price": 399,
+          "unit": "大袋入り1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "赤肉メロン",
+          "price": 1590,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "チキンナゲット",
+          "price": 600,
+          "unit": "30個",
+          "category": "惣菜"
+        },
+        {
+          "name": "手羽元炙り焼き",
+          "price": 600,
+          "unit": "15本入",
+          "category": "惣菜"
+        },
+        {
+          "name": "焼鳥盛合せ(もも・ねぎま)",
+          "price": 555,
+          "unit": "10本",
+          "category": "惣菜"
+        },
+        {
+          "name": "THE!LOPIA牛カルビキンパとヤンニョムチキンセット",
+          "price": 888,
+          "unit": "1パック",
+          "category": "惣菜"
+        },
+        {
+          "name": "GREEN DA・KA・RA やさしい麦茶",
+          "price": 59,
+          "unit": "680ml",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "ハーゲンダッツ ミニカップ 各種",
+          "price": 199,
+          "unit": "各1個",
+          "category": "卵・乳製品"
+        },
+        {
+          "name": "ミツカン 追いがつおつゆ 2倍",
+          "price": 199,
+          "unit": "1L",
+          "category": "その他"
+        },
+        {
+          "name": "ハウス うまかっちゃん",
+          "price": 369,
+          "unit": "5食入",
+          "category": "その他"
+        }
+      ],
       "flyerImageUrls": [
         "https://image.tokubai.co.jp/images/bargain_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=602/104525930.jpg?1786519572",
         "https://image.tokubai.co.jp/images/bargain_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=602/104525931.jpg?1786519574"
@@ -47,7 +362,7 @@
       "id": "marukyo-harada",
       "name": "マルキョウ原田店",
       "sourceUrl": "https://www.shufoo.net/pntweb/shopDetail/291159/",
-      "status": "extract_failed",
+      "status": "no_items",
       "items": [],
       "flyerImageUrls": [
         "https://ipqcache2.shufoo.net/c/2026/08/07/c/6323926808816/index/img/thumb/thumb_m.jpg"
@@ -57,8 +372,69 @@
       "id": "direx-hara",
       "name": "ダイレックス原店",
       "sourceUrl": "https://tokubai.co.jp/%E3%83%80%E3%82%A4%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9/33142",
-      "status": "extract_failed",
-      "items": [],
+      "status": "ok",
+      "items": [
+        {
+          "name": "トマト",
+          "price": 399,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "キウイフルーツ",
+          "price": 159,
+          "unit": "1パック",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "バナナ",
+          "price": 59,
+          "unit": "",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "牛小間切れ肉",
+          "price": 398,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "豚小間切れ肉",
+          "price": 108,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "若鶏もも肉",
+          "price": 128,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "コロッケ各種",
+          "price": 178,
+          "unit": "1パック",
+          "category": "惣菜"
+        },
+        {
+          "name": "三ツ矢サイダー / ファンタ / カルピスウォーター 各種",
+          "price": 138,
+          "unit": "1本",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "シャウエッセン",
+          "price": 369,
+          "unit": "1束",
+          "category": "精肉"
+        },
+        {
+          "name": "雪印メグミルク 恵 ヨーグルト",
+          "price": 111,
+          "unit": "1個",
+          "category": "卵・乳製品"
+        }
+      ],
       "flyerImageUrls": [
         "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=630/9566873.jpg?1785828689",
         "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=630/9566874.jpg?1785828688"
