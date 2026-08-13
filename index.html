@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>筑紫野・太宰府 スーパー特売チェッカー</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    background: #f7f5f0;
+    color: #2b2620;
+    padding: 24px;
+  }
+  .wrap { max-width: 920px; margin: 0 auto; }
+  header { margin-bottom: 20px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  .updated { color: #7a7266; font-size: 13px; }
+  .badge {
+    display: inline-block;
+    background: #fff3e0;
+    color: #b5590a;
+    border: 1px solid #f0c48a;
+    border-radius: 6px;
+    padding: 2px 8px;
+    font-size: 12px;
+    margin-left: 8px;
+  }
+  .notice {
+    background: #fff6ea;
+    border: 1px solid #f0d9a8;
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 13px;
+    color: #6b5a2f;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  .store {
+    background: #fff;
+    border: 1px solid #e6e0d4;
+    border-radius: 12px;
+    margin-bottom: 14px;
+    overflow: hidden;
+  }
+  .store-head {
+    padding: 14px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #faf8f3;
+    border-bottom: 1px solid #e6e0d4;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  .store-head h3 { margin: 0; font-size: 15px; }
+  .store-head .addr { font-size: 12px; color: #888; margin-top: 2px; }
+  .status-na { color: #a0522d; font-size: 12px; font-weight: 600; white-space: nowrap; }
+  .na-box { padding: 14px 18px; font-size: 13px; color: #5a5348; line-height: 1.6; }
+  .na-box a {
+    display: inline-block;
+    margin-top: 6px;
+    color: #b5590a;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid #f0c48a;
+    background: #fff3e0;
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+  }
+  .na-box a:hover { background: #ffe6bf; }
+  footer { font-size: 11px; color: #999; margin-top: 16px; line-height: 1.6; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>筑紫野・太宰府 スーパー特売チェッカー</h1>
+    <div class="updated" id="updatedLine">最終更新: 2026年8月13日(木)</div>
+  </header>
+
+  <div class="notice">
+    この5店舗はいずれもチラシが「画像（スキャン紙面）」形式で公開されており、現状は自動で商品名・価格をテキスト抽出できていません。下の各店リンクから最新チラシを直接確認できます。
+  </div>
+
+  <div id="storesContainer"></div>
+
+  <footer>
+    データ出典: くふうトクバイ（tokubai.co.jp）、Shufoo!（shufoo.net）、チラシガイド（chirashi-guide.com）、明治屋ジャンボ市公式サイト。価格や在庫は実際の店頭と異なる場合があります。
+  </footer>
+</div>
+
+<script>
+const updatedAt = "2026年8月13日(木) 更新";
+
+const stores = [
+  {
+    name: "明治屋ジャンボ市 太宰府店",
+    addr: "福岡県太宰府市都府楼南4-11-1",
+    links: [
+      { label: "チラシガイドで見る", url: "https://chirashi-guide.com/%E7%A6%8F%E5%B2%A1%E7%9C%8C/%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%B8%82/178882/" },
+      { label: "公式サイト（特価デー）", url: "https://www.meijiya-jumbo.jp/tokkaday.html" },
+    ],
+    note: "トクバイには店舗ページの掲載がありません。"
+  },
+  {
+    name: "ゆめタウン 筑紫野店",
+    addr: "福岡県筑紫野市針摺東3丁目3-1",
+    links: [
+      { label: "トクバイで見る", url: "https://tokubai.co.jp/%E3%82%86%E3%82%81%E3%82%BF%E3%82%A6%E3%83%B3/84624" },
+    ],
+  },
+  {
+    name: "ロピア 筑紫野シュロアモール店",
+    addr: "福岡県筑紫野市大字原田836-4",
+    links: [
+      { label: "トクバイで見る", url: "https://tokubai.co.jp/%E3%83%AD%E3%83%94%E3%82%A2/291677" },
+    ],
+  },
+  {
+    name: "マルキョウ 原田店",
+    addr: "福岡県筑紫野市原田4丁目13-7",
+    links: [
+      { label: "Shufoo!で見る", url: "https://www.shufoo.net/pntweb/shopDetail/291159/" },
+    ],
+    note: "トクバイには店舗ページの掲載がありません。"
+  },
+  {
+    name: "ダイレックス 原店",
+    addr: "福岡県筑紫野市原677-5",
+    links: [
+      { label: "トクバイで見る", url: "https://tokubai.co.jp/%E3%83%80%E3%82%A4%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9/33142" },
+    ],
+  },
+];
+
+document.getElementById("updatedLine").textContent = "最終更新: " + updatedAt;
+
+const container = document.getElementById("storesContainer");
+stores.forEach(s => {
+  const el = document.createElement("div");
+  el.className = "store";
+  const linksHtml = s.links.map(l => `<a href="${l.url}" target="_blank" rel="noopener">${l.label} →</a>`).join(" ");
+  el.innerHTML = `
+    <div class="store-head">
+      <div>
+        <h3>${s.name}</h3>
+        <div class="addr">${s.addr}</div>
+      </div>
+      <span class="status-na">画像チラシ・要リンク確認</span>
+    </div>
+    <div class="na-box">
+      ${s.note ? s.note + "<br>" : ""}
+      ${linksHtml}
+    </div>
+  `;
+  container.appendChild(el);
+});
+</script>
+</body>
+</html>
