@@ -50,10 +50,7 @@ const STORES = [
     id: "marukyo-harada",
     name: "マルキョウ原田店",
     sourceUrl: "https://www.shufoo.net/pntweb/shopDetail/291159/",
-    extractImageUrls: (html) => {
-      const m = html.match(/(\/\/ipqcache2\.shufoo\.net\/c\/[^"]+\/index\/img\/thumb\/thumb_m\.jpg)/);
-      return m ? [`https:${m[1]}`] : [];
-    },
+    extractImageUrls: (html) => extractShufooTileUrls(html),
   },
   {
     id: "direx-hara",
@@ -71,6 +68,44 @@ function extractTokubaiLeafletUrls(html) {
     ),
   ];
   return matches.slice(0, 2).map((m) => m[1]);
+}
+
+// Shufoo!のチラシは "thumb_m.jpg" だと138x85程度の極小サムネイルしか無くAIが読めない。
+// ビューアーが内部で使うタイル画像（index/contents.xml で定義されるページ分割画像）を
+// 等倍の2倍スケールで組み立てて、読める解像度の画像セットを作る。
+async function extractShufooTileUrls(html) {
+  const m = html.match(/\/\/ipqcache2\.shufoo\.net\/c\/([^"]+?)\/index\/img\/thumb\/thumb_m\.jpg/);
+  if (!m) return [];
+
+  const basePath = `https://ipqcache2.shufoo.net/c/${m[1]}/index/`;
+  const thumbUrl = `https:${m[0]}`;
+
+  let xml;
+  try {
+    xml = await fetchText(`${basePath}contents.xml`);
+  } catch {
+    return [thumbUrl];
+  }
+
+  const totalPages = Number(xml.match(/<totalPages>(\d+)<\/totalPages>/)?.[1] || 1);
+  const bookW = Number(xml.match(/<bookW>(\d+)<\/bookW>/)?.[1] || 0);
+  const bookH = Number(xml.match(/<bookH>(\d+)<\/bookH>/)?.[1] || 0);
+  const sliceW = Number(xml.match(/<sliceW>(\d+)<\/sliceW>/)?.[1] || 512);
+  const sliceH = Number(xml.match(/<sliceH>(\d+)<\/sliceH>/)?.[1] || 512);
+  if (!bookW || !bookH) return [thumbUrl];
+
+  const scale = 2; // サムネイルより十分読める解像度（縦横2倍）
+  const zlevel = 100 * scale;
+  const column = Math.ceil((bookW * scale) / sliceW);
+  const row = Math.ceil((bookH * scale) / sliceH);
+
+  const urls = [];
+  for (let page = 0; page < Math.min(totalPages, 4); page++) {
+    for (let seq = 0; seq < column * row; seq++) {
+      urls.push(`${basePath}img/${page}_${zlevel}_${seq}.jpg`);
+    }
+  }
+  return urls.length > 0 ? urls : [thumbUrl];
 }
 
 async function fetchText(url) {
@@ -157,7 +192,7 @@ async function processStore(store) {
     return result;
   }
 
-  const imageUrls = store.extractImageUrls(html);
+  const imageUrls = await store.extractImageUrls(html);
   if (imageUrls.length === 0) {
     console.error(`[${store.id}] チラシ画像URLが見つかりませんでした`);
     result.status = "no_image_found";

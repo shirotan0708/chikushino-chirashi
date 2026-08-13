@@ -106,6 +106,22 @@
   .na-box a:hover { background: #ffe6bf; }
 
   h2.section-heading { font-size: 14px; color: #7a7266; margin: 24px 0 10px; }
+  .source-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .source-links a {
+    display: inline-block;
+    color: #6b5a2f;
+    text-decoration: none;
+    border: 1px solid #e6e0d4;
+    background: #fff;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+  }
+  .source-links a:hover { background: #faf8f3; }
   footer { font-size: 11px; color: #999; margin-top: 16px; line-height: 1.6; }
 </style>
 </head>
@@ -123,6 +139,8 @@
   <div id="categoriesContainer"></div>
 
   <div id="fallbackContainer"></div>
+
+  <div id="sourceLinksContainer"></div>
 
   <footer>
     データ出典: くふうトクバイ（tokubai.co.jp）、Shufoo!（shufoo.net）、チラシガイド（chirashi-guide.com）。価格・商品はAIによる自動読み取りのため、実際のチラシ・店頭表示と異なる場合があります。最終的な価格は必ず元チラシでご確認ください。
@@ -144,6 +162,17 @@ const STATUS_LABEL = {
   extract_failed: "AIによる読み取りに失敗しました",
   no_api_key: "価格の自動読み取り未設定です",
   no_items: "特売情報が見つかりませんでした",
+};
+
+const CATEGORY_ICON = {
+  "精肉": "🥩",
+  "鮮魚": "🐟",
+  "野菜・果物": "🥬",
+  "卵・乳製品": "🥚",
+  "惣菜": "🍱",
+  "飲料・お酒": "🍺",
+  "日用品": "🧻",
+  "その他": "🛒",
 };
 
 function formatUpdatedAt(iso) {
@@ -186,8 +215,9 @@ function renderCategories(data) {
       return `<div class="store-col"><h4>${escapeHtml(store.name)}</h4>${itemsHtml}</div>`;
     }).join("");
 
+    const icon = CATEGORY_ICON[category] || "🛒";
     section.innerHTML = `
-      <div class="category-title">${escapeHtml(category)}</div>
+      <div class="category-title">${icon} ${escapeHtml(category)}</div>
       <div class="category-grid">${cols}</div>
     `;
     container.appendChild(section);
@@ -223,6 +253,22 @@ function renderFallback(data) {
   });
 }
 
+function renderSourceLinks(data) {
+  const container = document.getElementById("sourceLinksContainer");
+  const heading = document.createElement("h2");
+  heading.className = "section-heading";
+  heading.textContent = "元チラシを直接確認する";
+  container.appendChild(heading);
+
+  const list = document.createElement("div");
+  list.className = "source-links";
+  list.innerHTML = data.stores.map(store => {
+    const linkLabel = STORE_LINK_LABEL[store.id] || "チラシを見る";
+    return `<a href="${store.sourceUrl}" target="_blank" rel="noopener">${escapeHtml(store.name)}：${linkLabel} →</a>`;
+  }).join("");
+  container.appendChild(list);
+}
+
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
@@ -236,6 +282,7 @@ fetch("data/flyers.json")
     document.getElementById("updatedLine").textContent = "最終更新: " + formatUpdatedAt(data.updatedAt);
     renderCategories(data);
     renderFallback(data);
+    renderSourceLinks(data);
   })
   .catch(err => {
     document.getElementById("updatedLine").textContent = "データを読み込めませんでした";

@@ -45,7 +45,7 @@ git push -u origin main
    - Name: `GEMINI_API_KEY`
    - Secret: 発行したAPIキーを貼り付け
 5. リポジトリの Actions タブ → 「Update flyer data」ワークフロー → 「Run workflow」で手動実行し、`data/flyers.json` が更新されてページに価格が表示されることを確認
-6. 以降は毎朝6時（JST）ごろに自動実行されます
+6. 以降は毎朝8時（JST）ごろに自動実行されます（GitHub Actionsの仕様上、混雑時は数十分ずれることがあります）
 
 設定前・または各サイトの構造変更等で読み取りに失敗した店舗は、これまで通り元チラシへのリンクが表示されます（ページが壊れることはありません）。
 

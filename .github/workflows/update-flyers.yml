@@ -2,8 +2,8 @@ name: Update flyer data
 
 on:
   schedule:
-    # 21:00 UTC = 6:00 JST（毎朝）
-    - cron: "0 21 * * *"
+    # 23:00 UTC = 8:00 JST（毎朝）
+    - cron: "0 23 * * *"
   workflow_dispatch: {}
 
 permissions:
