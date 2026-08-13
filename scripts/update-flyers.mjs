@@ -122,6 +122,39 @@ async function fetchImageAsBase64(url) {
   return { base64: buf.toString("base64"), mimeType: contentType.split(";")[0] };
 }
 
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+// 503(混雑)・429(レート制限)は一時的なことが多いので、待って数回リトライする。
+async function callGeminiWithRetry(parts, maxAttempts = 4) {
+  let lastError;
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    const res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          contents: [{ parts }],
+          generationConfig: { responseMimeType: "application/json" },
+        }),
+      }
+    );
+
+    if (res.ok) return res.json();
+
+    const bodyText = await res.text();
+    lastError = new Error(`Gemini API error: HTTP ${res.status} ${bodyText}`);
+
+    const retryable = res.status === 503 || res.status === 429 || res.status >= 500;
+    if (!retryable || attempt === maxAttempts) throw lastError;
+
+    const waitMs = 2000 * 2 ** (attempt - 1); // 2s, 4s, 8s...
+    console.error(`Gemini API ${res.status}、${waitMs / 1000}秒後にリトライ (${attempt}/${maxAttempts})`);
+    await sleep(waitMs);
+  }
+  throw lastError;
+}
+
 async function extractItemsWithGemini(images) {
   const prompt = `あなたはスーパーの特売チラシ画像から商品情報を読み取るアシスタントです。
 添付されたチラシ画像に写っている「目玉商品・特売商品」を可能な限り抽出してください。
@@ -141,23 +174,7 @@ async function extractItemsWithGemini(images) {
     ...images.map((img) => ({ inlineData: { mimeType: img.mimeType, data: img.base64 } })),
   ];
 
-  const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`,
-    {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        contents: [{ parts }],
-        generationConfig: { responseMimeType: "application/json" },
-      }),
-    }
-  );
-
-  if (!res.ok) {
-    throw new Error(`Gemini API error: HTTP ${res.status} ${await res.text()}`);
-  }
-
-  const data = await res.json();
+  const data = await callGeminiWithRetry(parts);
   const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
   if (!text) throw new Error("Gemini response has no text");
 
