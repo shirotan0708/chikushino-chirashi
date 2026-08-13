@@ -1,0 +1,68 @@
+{
+  "updatedAt": "2026-08-13T07:55:07.129Z",
+  "categories": [
+    "精肉",
+    "鮮魚",
+    "野菜・果物",
+    "卵・乳製品",
+    "惣菜",
+    "飲料・お酒",
+    "日用品",
+    "その他"
+  ],
+  "stores": [
+    {
+      "id": "meijiya-dazaifu",
+      "name": "明治屋ジャンボ市 太宰府店",
+      "sourceUrl": "https://chirashi-guide.com/%E7%A6%8F%E5%B2%A1%E7%9C%8C/%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%B8%82/178882/",
+      "status": "no_api_key",
+      "items": [],
+      "flyerImageUrls": [
+        "https://chirashi-guide.com/chirashi-file/2026/08/838/838-dazaifu_1830600_0.jpg"
+      ]
+    },
+    {
+      "id": "yumetown-chikushino",
+      "name": "ゆめタウン筑紫野店",
+      "sourceUrl": "https://tokubai.co.jp/%E3%82%86%E3%82%81%E3%82%BF%E3%82%A6%E3%83%B3/84624",
+      "status": "no_api_key",
+      "items": [],
+      "flyerImageUrls": [
+        "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=618/9578931.jpg?1786009989",
+        "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=618/9578932.jpg?1786009979"
+      ]
+    },
+    {
+      "id": "ropia-chikushino",
+      "name": "ロピア筑紫野シュロアモール店",
+      "sourceUrl": "https://tokubai.co.jp/%E3%83%AD%E3%83%94%E3%82%A2/291677",
+      "status": "no_api_key",
+      "items": [],
+      "flyerImageUrls": [
+        "https://image.tokubai.co.jp/images/bargain_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=602/104525930.jpg?1786519572",
+        "https://image.tokubai.co.jp/images/bargain_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=602/104525931.jpg?1786519574"
+      ]
+    },
+    {
+      "id": "marukyo-harada",
+      "name": "マルキョウ原田店",
+      "sourceUrl": "https://www.shufoo.net/pntweb/shopDetail/291159/",
+      "status": "no_api_key",
+      "items": [],
+      "flyerImageUrls": [
+        "https://ipqcache2.shufoo.net/c/2026/08/07/c/6323926808816/index/img/thumb/thumb_m.jpg"
+      ]
+    },
+    {
+      "id": "direx-hara",
+      "name": "ダイレックス原店",
+      "sourceUrl": "https://tokubai.co.jp/%E3%83%80%E3%82%A4%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9/33142",
+      "status": "no_api_key",
+      "items": [],
+      "flyerImageUrls": [
+        "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=630/9566873.jpg?1785828689",
+        "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=630/9566874.jpg?1785828688"
+      ]
+    }
+  ]
+}
