@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T01:04:00.262Z",
+  "updatedAt": "2026-09-09T01:09:56.386Z",
   "categories": [
     "精肉",
     "鮮魚",
@@ -36,8 +36,12 @@
       "id": "ropia-chikushino",
       "name": "ロピア筑紫野シュロアモール店",
       "sourceUrl": "https://tokubai.co.jp/%E3%83%AD%E3%83%94%E3%82%A2/291677",
-      "status": "no_image_found",
-      "items": []
+      "status": "extract_failed",
+      "items": [],
+      "flyerImageUrls": [
+        "https://image.tokubai.co.jp/images/bargain_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=602/105482640.jpg?1788844325",
+        "https://image.tokubai.co.jp/images/bargain_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=602/105482641.jpg?1788844327"
+      ]
     },
     {
       "id": "marukyo-harada",
@@ -46,22 +50,26 @@
       "status": "extract_failed",
       "items": [],
       "flyerImageUrls": [
-        "https://ipqcache2.shufoo.net/c/2026/09/01/c/7198226848833/index/img/0_200_0.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/09/01/c/7198226848833/index/img/0_200_1.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/09/01/c/7198226848833/index/img/0_200_2.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/09/01/c/7198226848833/index/img/0_200_3.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/09/01/c/7198226848833/index/img/1_200_0.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/09/01/c/7198226848833/index/img/1_200_1.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/09/01/c/7198226848833/index/img/1_200_2.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/09/01/c/7198226848833/index/img/1_200_3.jpg"
+        "https://ipqcache2.shufoo.net/c/2026/09/07/c/5189326857181/index/img/0_200_0.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/09/07/c/5189326857181/index/img/0_200_1.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/09/07/c/5189326857181/index/img/0_200_2.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/09/07/c/5189326857181/index/img/0_200_3.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/09/07/c/5189326857181/index/img/1_200_0.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/09/07/c/5189326857181/index/img/1_200_1.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/09/07/c/5189326857181/index/img/1_200_2.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/09/07/c/5189326857181/index/img/1_200_3.jpg"
       ]
     },
     {
       "id": "direx-hara",
       "name": "ダイレックス原店",
       "sourceUrl": "https://tokubai.co.jp/%E3%83%80%E3%82%A4%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9/33142",
-      "status": "no_image_found",
-      "items": []
+      "status": "extract_failed",
+      "items": [],
+      "flyerImageUrls": [
+        "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=630/9647332.jpg?1788426279",
+        "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=630/9647333.jpg?1788426279"
+      ]
     }
   ]
 }
