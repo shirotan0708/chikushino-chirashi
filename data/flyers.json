@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T01:09:56.386Z",
+  "updatedAt": "2026-09-10T00:59:00.746Z",
   "categories": [
     "精肉",
     "鮮魚",
@@ -25,11 +25,96 @@
       "id": "yumetown-chikushino",
       "name": "ゆめタウン筑紫野店",
       "sourceUrl": "https://tokubai.co.jp/%E3%82%86%E3%82%81%E3%82%BF%E3%82%A6%E3%83%B3/84624",
-      "status": "extract_failed",
-      "items": [],
+      "status": "ok",
+      "items": [
+        {
+          "name": "浜茹で毛がに",
+          "price": 2980,
+          "unit": "1杯",
+          "category": "鮮魚"
+        },
+        {
+          "name": "ボイルたらばがにハーフポーション",
+          "price": 3980,
+          "unit": "1パック",
+          "category": "鮮魚"
+        },
+        {
+          "name": "六種の海鮮ちらし",
+          "price": 999,
+          "unit": "1パック",
+          "category": "惣菜"
+        },
+        {
+          "name": "北海道いくらとローストビーフちらし",
+          "price": 1380,
+          "unit": "1パック",
+          "category": "惣菜"
+        },
+        {
+          "name": "小川さんのサラダ玉ねぎ",
+          "price": 398,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "北海道産メロン",
+          "price": 1780,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "北海道産牛ステーキ用",
+          "price": 799,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "ロイズ 生チョコレート",
+          "price": 1125,
+          "unit": "1箱",
+          "category": "その他"
+        },
+        {
+          "name": "ロイズ ポテトチップチョコレート",
+          "price": 1100,
+          "unit": "1箱",
+          "category": "その他"
+        },
+        {
+          "name": "ISHIYA 白い恋人ロールケーキ",
+          "price": 1750,
+          "unit": "1本",
+          "category": "その他"
+        },
+        {
+          "name": "ISHIYA 白い恋人",
+          "price": 900,
+          "unit": "1箱",
+          "category": "その他"
+        },
+        {
+          "name": "六花亭 マルセイバターサンド",
+          "price": 806,
+          "unit": "5個入",
+          "category": "その他"
+        },
+        {
+          "name": "柳月 三方六 プレーン",
+          "price": 722,
+          "unit": "1本",
+          "category": "その他"
+        },
+        {
+          "name": "りんごカスタードアップルパイ",
+          "price": 980,
+          "unit": "1箱",
+          "category": "その他"
+        }
+      ],
       "flyerImageUrls": [
-        "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=552/9646450.jpg?1788422075",
-        "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=552/9646451.jpg?1788422074"
+        "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=552/9660691.jpg?1788857893",
+        "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=552/9660692.jpg?1788857893"
       ]
     },
     {
@@ -47,8 +132,153 @@
       "id": "marukyo-harada",
       "name": "マルキョウ原田店",
       "sourceUrl": "https://www.shufoo.net/pntweb/shopDetail/291159/",
-      "status": "extract_failed",
-      "items": [],
+      "status": "ok",
+      "items": [
+        {
+          "name": "新さんま",
+          "price": 399,
+          "unit": "2尾",
+          "category": "鮮魚"
+        },
+        {
+          "name": "塩秋鮭切身",
+          "price": 199,
+          "unit": "100gあたり",
+          "category": "鮮魚"
+        },
+        {
+          "name": "カツオタタキブロック",
+          "price": 219,
+          "unit": "100gあたり",
+          "category": "鮮魚"
+        },
+        {
+          "name": "あきづき梨 大玉",
+          "price": 680,
+          "unit": "2玉入1パック",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "サン津軽りんご 大玉",
+          "price": 159,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "なると金時いも",
+          "price": 59,
+          "unit": "100gあたり",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "ホクト 霜降りひらたけ",
+          "price": 119,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "国産 若鶏モモ肉(生)",
+          "price": 99,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "アメリカ産 豚肉ロースとんかつ用",
+          "price": 109,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 豚肉小間切れ",
+          "price": 119,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 若鶏ムネ肉(生)",
+          "price": 79,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 豚肉バラスライス",
+          "price": 199,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産たまご 白玉",
+          "price": 199,
+          "unit": "10ヶ入1パック",
+          "category": "卵・乳製品"
+        },
+        {
+          "name": "雪印 北海道バター",
+          "price": 499,
+          "unit": "200g",
+          "category": "卵・乳製品"
+        },
+        {
+          "name": "国産 豚肉ヒレブロック",
+          "price": 199,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 若鶏手羽先(生)",
+          "price": 109,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国内産 開きアジ",
+          "price": 499,
+          "unit": "2枚入1パック",
+          "category": "鮮魚"
+        },
+        {
+          "name": "オーストラリア産 牛肉モモ切り落とし",
+          "price": 299,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "極みのヒレカツ",
+          "price": 399,
+          "unit": "5枚入1パック",
+          "category": "惣菜"
+        },
+        {
+          "name": "いかのまるごと唐揚げ",
+          "price": 219,
+          "unit": "100gあたり",
+          "category": "惣菜"
+        },
+        {
+          "name": "れんこんの海鮮詰めフライ",
+          "price": 279,
+          "unit": "4ヶ入1パック",
+          "category": "惣菜"
+        },
+        {
+          "name": "三ツ矢サイダー",
+          "price": 79,
+          "unit": "1本",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "ネスカフェ ゴールドブレンド",
+          "price": 499,
+          "unit": "1本",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "サランラップミニ",
+          "price": 299,
+          "unit": "1本",
+          "category": "日用品"
+        }
+      ],
       "flyerImageUrls": [
         "https://ipqcache2.shufoo.net/c/2026/09/07/c/5189326857181/index/img/0_200_0.jpg",
         "https://ipqcache2.shufoo.net/c/2026/09/07/c/5189326857181/index/img/0_200_1.jpg",
