@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T01:17:03.486Z",
+  "updatedAt": "2026-09-25T01:18:45.584Z",
   "categories": [
     "精肉",
     "鮮魚",
@@ -15,18 +15,118 @@
       "id": "meijiya-dazaifu",
       "name": "明治屋ジャンボ市 太宰府店",
       "sourceUrl": "https://chirashi-guide.com/%E7%A6%8F%E5%B2%A1%E7%9C%8C/%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%B8%82/178882/",
-      "status": "extract_failed",
-      "items": [],
-      "flyerImageUrls": [
-        "https://chirashi-guide.com/chirashi-file/2026/09/838/838-dazaifu_3076317_0.jpg"
-      ]
+      "status": "fetch_failed",
+      "items": []
     },
     {
       "id": "yumetown-chikushino",
       "name": "ゆめタウン筑紫野店",
       "sourceUrl": "https://tokubai.co.jp/%E3%82%86%E3%82%81%E3%82%BF%E3%82%A6%E3%83%B3/84624",
-      "status": "extract_failed",
-      "items": [],
+      "status": "ok",
+      "items": [
+        {
+          "name": "ほめられかぼちゃ",
+          "price": 58,
+          "unit": "100g当り",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "まいたけ",
+          "price": 98,
+          "unit": "1パック",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "れんこん",
+          "price": 88,
+          "unit": "100g当り",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "生しいたけ",
+          "price": 78,
+          "unit": "100g当り",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "りんご（サンつがる・きおう等）",
+          "price": 178,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "りんご",
+          "price": 698,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "生秋鮭切身",
+          "price": 288,
+          "unit": "100g当り",
+          "category": "鮮魚"
+        },
+        {
+          "name": "気仙沼産かつおたたき造り",
+          "price": 598,
+          "unit": "1パック",
+          "category": "鮮魚"
+        },
+        {
+          "name": "国産黒毛和牛バラ焼肉用",
+          "price": 798,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "国産豚肉ローステキ・カツ用",
+          "price": 198,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "国産若鶏もも肉",
+          "price": 109,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "香薫あらびきポークウインナー",
+          "price": 880,
+          "unit": "大袋",
+          "category": "精肉"
+        },
+        {
+          "name": "ちりめん",
+          "price": 500,
+          "unit": "1盛",
+          "category": "鮮魚"
+        },
+        {
+          "name": "若鶏手羽元",
+          "price": 68,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "ピーマン",
+          "price": 98,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "牛肉味付焼肉用",
+          "price": 598,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "黒毛和牛切落し",
+          "price": 950,
+          "unit": "",
+          "category": "精肉"
+        }
+      ],
       "flyerImageUrls": [
         "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=618/9696434.jpg?1789650178",
         "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=618/9696435.jpg?1789650178"
@@ -43,8 +143,171 @@
       "id": "marukyo-harada",
       "name": "マルキョウ原田店",
       "sourceUrl": "https://www.shufoo.net/pntweb/shopDetail/291159/",
-      "status": "extract_failed",
-      "items": [],
+      "status": "ok",
+      "items": [
+        {
+          "name": "国産 若鶏モモ肉(生)",
+          "price": 99,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 豚肉ロース各種",
+          "price": 179,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 豚肉肩ブロック(角煮・酢豚用)",
+          "price": 209,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "たまねぎ",
+          "price": 69,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "シャインマスカットぶどう",
+          "price": 990,
+          "unit": "1パック",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "アメリカ産 豚肉ロースとんかつ用",
+          "price": 119,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 若鶏ムネ肉(生)",
+          "price": 79,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "トマト",
+          "price": 299,
+          "unit": "3玉入1パック",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "レタス",
+          "price": 249,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "国産 豚肉ヒレブロック",
+          "price": 199,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 若鶏手羽先(生)",
+          "price": 109,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "ロースとんかつ",
+          "price": 199,
+          "unit": "1枚",
+          "category": "惣菜"
+        },
+        {
+          "name": "大村寿司",
+          "price": 299,
+          "unit": "1パック",
+          "category": "惣菜"
+        },
+        {
+          "name": "国産たまご",
+          "price": 199,
+          "unit": "白玉10個入1パック",
+          "category": "卵・乳製品"
+        },
+        {
+          "name": "上白糖",
+          "price": 199,
+          "unit": "1kg",
+          "category": "その他"
+        },
+        {
+          "name": "アサヒ ウィルキンソン タンサン",
+          "price": 79,
+          "unit": "500ml",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "ネスカフェ ゴールドブレンド",
+          "price": 499,
+          "unit": "",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "サン津軽りんご",
+          "price": 159,
+          "unit": "大玉1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "白菜",
+          "price": 129,
+          "unit": "1/4カット",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "国産 豚小間切れ",
+          "price": 119,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "オーストラリア産 牛肉モモ切り落とし",
+          "price": 299,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 若鶏モモ肉切身唐揚げ用",
+          "price": 129,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "グレープフルーツ",
+          "price": 139,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "魚屋の海鮮巻",
+          "price": 399,
+          "unit": "1パック4貫",
+          "category": "惣菜"
+        },
+        {
+          "name": "厚みヒレカツ",
+          "price": 399,
+          "unit": "4枚入1パック",
+          "category": "惣菜"
+        },
+        {
+          "name": "イカのまるごと唐揚げ",
+          "price": 219,
+          "unit": "100g",
+          "category": "惣菜"
+        },
+        {
+          "name": "サランラップ",
+          "price": 429,
+          "unit": "レギュラー30×50",
+          "category": "日用品"
+        }
+      ],
       "flyerImageUrls": [
         "https://ipqcache2.shufoo.net/c/2026/09/16/c/8747816871738/index/img/0_200_0.jpg",
         "https://ipqcache2.shufoo.net/c/2026/09/16/c/8747816871738/index/img/0_200_1.jpg",
@@ -60,8 +323,117 @@
       "id": "direx-hara",
       "name": "ダイレックス原店",
       "sourceUrl": "https://tokubai.co.jp/%E3%83%80%E3%82%A4%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9/33142",
-      "status": "extract_failed",
-      "items": [],
+      "status": "ok",
+      "items": [
+        {
+          "name": "シャインマスカット",
+          "price": 680,
+          "unit": "1パック",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "ぶどう",
+          "price": 499,
+          "unit": "1パック",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "きゅうり",
+          "price": 199,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "トマト",
+          "price": 299,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "国産 若鶏モモ肉",
+          "price": 108,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 豚バラスライス",
+          "price": 178,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 牛切落し",
+          "price": 1180,
+          "unit": "1パック",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 若鶏ササミ",
+          "price": 128,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "ざるそば",
+          "price": 378,
+          "unit": "1パック",
+          "category": "惣菜"
+        },
+        {
+          "name": "若鶏竜田揚げ",
+          "price": 178,
+          "unit": "100gあたり",
+          "category": "惣菜"
+        },
+        {
+          "name": "ネスカフェ ゴールドブレンド",
+          "price": 517,
+          "unit": "1本",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "キッコーマン わが家は焼肉屋さん",
+          "price": 231,
+          "unit": "1本",
+          "category": "その他"
+        },
+        {
+          "name": "コカ・コーラ",
+          "price": 100,
+          "unit": "1本",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "チップスターS",
+          "price": 92,
+          "unit": "1個",
+          "category": "その他"
+        },
+        {
+          "name": "アタック抗菌EX つめかえ用",
+          "price": 818,
+          "unit": "1個",
+          "category": "日用品"
+        },
+        {
+          "name": "花王 バブ",
+          "price": 363,
+          "unit": "1箱",
+          "category": "日用品"
+        },
+        {
+          "name": "ビオレu 泡ハンドソープ つめかえ用",
+          "price": 409,
+          "unit": "1個",
+          "category": "日用品"
+        },
+        {
+          "name": "葛根湯内服液",
+          "price": 271,
+          "unit": "3本パック",
+          "category": "日用品"
+        }
+      ],
       "flyerImageUrls": [
         "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=630/9684231.jpg?1789479075",
         "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=630/9684232.jpg?1789479075"
