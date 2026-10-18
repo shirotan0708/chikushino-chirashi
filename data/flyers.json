@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T01:12:44.952Z",
+  "updatedAt": "2026-10-18T00:49:39.529Z",
   "categories": [
     "精肉",
     "鮮魚",
@@ -15,8 +15,378 @@
       "id": "meijiya-dazaifu",
       "name": "明治屋ジャンボ市 太宰府店",
       "sourceUrl": "https://chirashi-guide.com/%E7%A6%8F%E5%B2%A1%E7%9C%8C/%E5%A4%AA%E5%AE%B0%E5%BA%9C%E5%B8%82/178882/",
-      "status": "fetch_failed",
-      "items": []
+      "status": "ok",
+      "items": [
+        {
+          "name": "日清 ヘルシーオフ",
+          "price": 199,
+          "unit": "1本(900g)",
+          "category": "その他"
+        },
+        {
+          "name": "ショッパーズ バナナ",
+          "price": 99,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "アボカド",
+          "price": 129,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "オレンジ",
+          "price": 129,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "カツオたたきブロック",
+          "price": 179,
+          "unit": "100g当り",
+          "category": "鮮魚"
+        },
+        {
+          "name": "子持ちししゃも",
+          "price": 299,
+          "unit": "1パック(8尾)",
+          "category": "鮮魚"
+        },
+        {
+          "name": "古谷さん家の美味豚ロース とんかつ用・生姜焼用・切落し",
+          "price": 159,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "ネスカフェ ゴールドブレンド",
+          "price": 699,
+          "unit": "1本(80g)",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "とろけるミックスチーズ",
+          "price": 399,
+          "unit": "1袋(300g)",
+          "category": "卵・乳製品"
+        },
+        {
+          "name": "キャベツ",
+          "price": 149,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "国産 若どりムネ身",
+          "price": 55,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "きゅうり",
+          "price": 99,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "豚バラ切落し",
+          "price": 99,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "山本さんちのじゃがいも",
+          "price": 179,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "銀鮭切身",
+          "price": 189,
+          "unit": "100g当り",
+          "category": "鮮魚"
+        },
+        {
+          "name": "豚こま肉切落し",
+          "price": 79,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "CGC 無調整豆乳",
+          "price": 699,
+          "unit": "1ケース(6本入)",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "チリ産 銀鮭切身(無塩)",
+          "price": 129,
+          "unit": "1切",
+          "category": "鮮魚"
+        },
+        {
+          "name": "特大ホッケ一夜干し",
+          "price": 499,
+          "unit": "1パック",
+          "category": "鮮魚"
+        },
+        {
+          "name": "銀ダラみりん",
+          "price": 399,
+          "unit": "1パック(2枚)",
+          "category": "鮮魚"
+        },
+        {
+          "name": "玉ねぎ",
+          "price": 159,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "さつまいも",
+          "price": 199,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "カナダ産 豚ロース とんかつ用・生姜焼用・切落し",
+          "price": 99,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "牛小間切",
+          "price": 200,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "ファンシーエッグ",
+          "price": 219,
+          "unit": "1パック(10玉入)",
+          "category": "卵・乳製品"
+        },
+        {
+          "name": "国産 若どりモモ身",
+          "price": 89,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "長芋",
+          "price": 49,
+          "unit": "100g当り",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "牛豚合挽ミンチ",
+          "price": 89,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "黒毛和牛肩ロースうす切",
+          "price": 550,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "黒毛和牛肩うす切",
+          "price": 550,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "若どりモモ身",
+          "price": 1299,
+          "unit": "1袋(2kg)",
+          "category": "精肉"
+        },
+        {
+          "name": "大根",
+          "price": 99,
+          "unit": "1カット",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "ぷりぷり生ムキエビ",
+          "price": 199,
+          "unit": "100g当り",
+          "category": "鮮魚"
+        },
+        {
+          "name": "ばら印 上白糖",
+          "price": 99,
+          "unit": "1袋(1kg)",
+          "category": "その他"
+        },
+        {
+          "name": "黒毛和牛肩うす切",
+          "price": 500,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "黒毛和牛肩焼肉用",
+          "price": 500,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "黒毛和牛赤身切落し",
+          "price": 400,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "牛ホルモン(シマ腸)",
+          "price": 299,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "牛バラ切落し",
+          "price": 299,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "豚ロース 切落し・生姜焼用・とんかつ用",
+          "price": 99,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "豚タン焼肉用",
+          "price": 100,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "豚ヒレブロック",
+          "price": 89,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "うなぎ蒲焼き",
+          "price": 699,
+          "unit": "1尾",
+          "category": "鮮魚"
+        },
+        {
+          "name": "えのき茸",
+          "price": 69,
+          "unit": "1袋(200g)",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "白ねぎ",
+          "price": 149,
+          "unit": "1束",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "柿",
+          "price": 99,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "りんご",
+          "price": 129,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "グリーンキウイ / サンゴールドキウイ",
+          "price": 500,
+          "unit": "各1本(5個入)",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "ハウス うまかっちゃん",
+          "price": 199,
+          "unit": "1袋(5食入)",
+          "category": "その他"
+        },
+        {
+          "name": "握り寿司バイキング",
+          "price": 1000,
+          "unit": "10貫(1パック)",
+          "category": "惣菜"
+        },
+        {
+          "name": "豚ミンチ",
+          "price": 69,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "豚モモ切落し",
+          "price": 89,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "ノルウェー産 生サーモンブロック(お刺身用)",
+          "price": 399,
+          "unit": "100g当り",
+          "category": "鮮魚"
+        },
+        {
+          "name": "天然本マグロ切落し",
+          "price": 499,
+          "unit": "100g当り",
+          "category": "鮮魚"
+        },
+        {
+          "name": "ピーマン",
+          "price": 129,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "お刺身盛り合わせ(4点盛)",
+          "price": 500,
+          "unit": "1パック",
+          "category": "鮮魚"
+        },
+        {
+          "name": "CGC ドリップコーヒー",
+          "price": 350,
+          "unit": "1袋(7g×15)",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "CGC 肉まん・あんまん",
+          "price": 229,
+          "unit": "各1袋(4個入)",
+          "category": "その他"
+        },
+        {
+          "name": "厳選農園バナナ",
+          "price": 199,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "豚モモ 切落し・ランプステーキ・生姜焼用",
+          "price": 99,
+          "unit": "100g当り",
+          "category": "精肉"
+        },
+        {
+          "name": "豚モモ細切り",
+          "price": 99,
+          "unit": "100g当り",
+          "category": "精肉"
+        }
+      ],
+      "flyerImageUrls": [
+        "https://chirashi-guide.com/chirashi-file/2026/10/838/838-dazaifu_1738100_0.jpg"
+      ]
     },
     {
       "id": "yumetown-chikushino",
@@ -36,19 +406,25 @@
       "status": "ok",
       "items": [
         {
-          "name": "燻製屋熟成あらびきウインナー",
+          "name": "丸大食品 燻製屋熟成あらびきウインナー",
           "price": 259,
           "unit": "90g×2",
           "category": "精肉"
         },
         {
-          "name": "牛バラ プルコギ用味付",
+          "name": "リュウジ監修燻製屋熟成ウインナー",
+          "price": 480,
+          "unit": "128g",
+          "category": "精肉"
+        },
+        {
+          "name": "牛バラプルコギ用味付",
           "price": 109,
           "unit": "100g当り",
           "category": "精肉"
         },
         {
-          "name": "国産豚ロース 生姜焼用",
+          "name": "国産豚ロース生姜焼用",
           "price": 149,
           "unit": "100g当り",
           "category": "精肉"
@@ -84,7 +460,7 @@
           "category": "精肉"
         },
         {
-          "name": "みなもと鶏 手羽とろ(肩肉)",
+          "name": "みなもと鶏手羽とろ(肩肉)",
           "price": 89,
           "unit": "100g当り",
           "category": "精肉"
@@ -110,11 +486,11 @@
         {
           "name": "生アトランティックサーモン刺身用(養殖)",
           "price": 390,
-          "unit": "半パック・100g当り",
+          "unit": "100g当り",
           "category": "鮮魚"
         },
         {
-          "name": "アンガス牛肩ロース すき焼用スライス",
+          "name": "アンガス牛肩ロースすき焼用スライス",
           "price": 350,
           "unit": "100g当り",
           "category": "精肉"
@@ -132,19 +508,19 @@
           "category": "鮮魚"
         },
         {
-          "name": "国産牛 プルコギ用味付",
+          "name": "国産牛プルコギ用味付",
           "price": 250,
           "unit": "100g当り",
           "category": "精肉"
         },
         {
-          "name": "黒毛和牛肩 すき焼き用スライス",
+          "name": "黒毛和牛肩すき焼き用スライス",
           "price": 499,
           "unit": "100g当り",
           "category": "精肉"
         },
         {
-          "name": "黒瀬ぶり 刺身用",
+          "name": "黒瀬ぶり刺身用",
           "price": 390,
           "unit": "100g当り",
           "category": "鮮魚"
@@ -162,7 +538,7 @@
           "category": "惣菜"
         },
         {
-          "name": "国産鶏のチキン南蛮〜自社製タルタル〜",
+          "name": "国産鶏のチキン南蛮～自社製タルタル～",
           "price": 699,
           "unit": "1パック",
           "category": "惣菜"
@@ -174,7 +550,7 @@
           "category": "惣菜"
         },
         {
-          "name": "THE!LOPIA牛カルビキンパとヤンニョムチキンセット",
+          "name": "THE! LOPIA牛カルビキンパとヤンニョムチキンセット",
           "price": 888,
           "unit": "1パック",
           "category": "惣菜"
@@ -186,13 +562,13 @@
           "category": "その他"
         },
         {
-          "name": "イゾレッタ",
+          "name": "イソレッタ",
           "price": 599,
           "unit": "200g",
           "category": "その他"
         },
         {
-          "name": "日清のラーメン屋さん 各種",
+          "name": "日清のラーメン屋さん",
           "price": 259,
           "unit": "各5食入",
           "category": "その他"
@@ -212,7 +588,7 @@
         {
           "name": "職人の珈琲 無糖",
           "price": 99,
-          "unit": "1本(900ml)",
+          "unit": "900ml",
           "category": "飲料・お酒"
         },
         {
@@ -222,7 +598,7 @@
           "category": "その他"
         },
         {
-          "name": "ブルーベリー",
+          "name": "冷凍ブルーベリー",
           "price": 899,
           "unit": "1000g",
           "category": "野菜・果物"
@@ -246,9 +622,63 @@
       "status": "ok",
       "items": [
         {
-          "name": "トロづくし 9貫 握り寿司盛り合わせ",
-          "price": 1090,
+          "name": "国産 若鶏モモ肉(生)",
+          "price": 99,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "豚肉ロース各種",
+          "price": 179,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 豚肉ブロック(肩ロース・バラ)",
+          "price": 209,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "シャインマスカットぶどう",
+          "price": 990,
           "unit": "1パック",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "アボカド",
+          "price": 179,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "アメリカ産 豚肉ロースとんかつ用",
+          "price": 109,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 若鶏ムネ肉(生)",
+          "price": 79,
+          "unit": "100g",
+          "category": "精肉"
+        },
+        {
+          "name": "トマト",
+          "price": 380,
+          "unit": "3玉入り",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "キリン 生茶",
+          "price": 79,
+          "unit": "525ml",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "トロづくし 握り寿司盛合せ",
+          "price": 1090,
+          "unit": "1パック(12貫)",
           "category": "惣菜"
         },
         {
@@ -258,104 +688,14 @@
           "category": "惣菜"
         },
         {
-          "name": "ミニトマト",
-          "price": 299,
-          "unit": "1パック",
-          "category": "野菜・果物"
-        },
-        {
-          "name": "ブロッコリー",
-          "price": 299,
-          "unit": "1株",
-          "category": "野菜・果物"
-        },
-        {
-          "name": "国産 若鶏むね肉切り身 唐揚げ用",
-          "price": 109,
-          "unit": "100g",
-          "category": "精肉"
-        },
-        {
-          "name": "刺身盛合せ 大盛",
-          "price": 1090,
-          "unit": "",
-          "category": "鮮魚"
-        },
-        {
-          "name": "国産 若鶏モモ肉（生）",
-          "price": 99,
-          "unit": "100g",
-          "category": "精肉"
-        },
-        {
-          "name": "豚肉ロース 各種",
-          "price": 179,
-          "unit": "100g",
-          "category": "精肉"
-        },
-        {
-          "name": "国産 豚肉ブロック（肩ロース・バラ）",
-          "price": 209,
-          "unit": "100g",
-          "category": "精肉"
-        },
-        {
-          "name": "シャインマスカット ぶどう",
-          "price": 990,
-          "unit": "1パック",
-          "category": "野菜・果物"
-        },
-        {
-          "name": "アボカド",
-          "price": 179,
-          "unit": "1個",
-          "category": "野菜・果物"
-        },
-        {
-          "name": "アメリカ産 豚肉ロース とんかつ用",
-          "price": 109,
-          "unit": "100g",
-          "category": "精肉"
-        },
-        {
-          "name": "国産 若鶏手羽元（生）",
-          "price": 79,
-          "unit": "100g",
-          "category": "精肉"
-        },
-        {
-          "name": "トマト",
-          "price": 380,
-          "unit": "3玉入",
-          "category": "野菜・果物"
-        },
-        {
           "name": "国産 豚肉ヒレブロック",
           "price": 199,
           "unit": "100g",
           "category": "精肉"
         },
         {
-          "name": "国産 若鶏手羽先（生）",
+          "name": "国産 若鶏手羽先(生)",
           "price": 109,
-          "unit": "100g",
-          "category": "精肉"
-        },
-        {
-          "name": "国産たまご 白玉10ヶ入",
-          "price": 199,
-          "unit": "1パック",
-          "category": "卵・乳製品"
-        },
-        {
-          "name": "アメリカ産 豚肉ロース切落し",
-          "price": 109,
-          "unit": "100g",
-          "category": "精肉"
-        },
-        {
-          "name": "国産 豚肉バラ切落し",
-          "price": 209,
           "unit": "100g",
           "category": "精肉"
         },
@@ -366,28 +706,10 @@
           "category": "精肉"
         },
         {
-          "name": "国産 牛モモ すき焼き・カレー用",
-          "price": 499,
-          "unit": "100g",
-          "category": "精肉"
-        },
-        {
-          "name": "国産 若鶏ムネ肉（生）",
-          "price": 79,
-          "unit": "100g",
-          "category": "精肉"
-        },
-        {
-          "name": "国産 若鶏モモ肉 切身唐揚げ用",
-          "price": 129,
-          "unit": "100g",
-          "category": "精肉"
-        },
-        {
-          "name": "キリン 生茶",
-          "price": 79,
-          "unit": "525ml",
-          "category": "飲料・お酒"
+          "name": "国産たまご",
+          "price": 199,
+          "unit": "1パック(白玉10ヶ入)",
+          "category": "卵・乳製品"
         }
       ],
       "flyerImageUrls": [
@@ -414,14 +736,32 @@
           "category": "惣菜"
         },
         {
-          "name": "チキンカツ",
+          "name": "惣菜 揚げ物各種",
           "price": 298,
           "unit": "1パック",
           "category": "惣菜"
         },
         {
-          "name": "国産 豚肉切落し",
-          "price": 128,
+          "name": "お刺身盛合せ",
+          "price": 555,
+          "unit": "1パック",
+          "category": "鮮魚"
+        },
+        {
+          "name": "トマト",
+          "price": 199,
+          "unit": "1パック",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "りんご",
+          "price": 299,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "国産 豚肉",
+          "price": 178,
           "unit": "100gあたり",
           "category": "精肉"
         },
@@ -432,64 +772,10 @@
           "category": "精肉"
         },
         {
-          "name": "国産 牛肉肩ロースうす切り",
-          "price": 1180,
-          "unit": "1パック",
-          "category": "精肉"
-        },
-        {
-          "name": "お刺身盛合せ",
-          "price": 555,
-          "unit": "1パック",
-          "category": "鮮魚"
-        },
-        {
-          "name": "塩銀鮭切身",
-          "price": 480,
-          "unit": "1パック",
-          "category": "鮮魚"
-        },
-        {
-          "name": "じゃがいも",
-          "price": 49,
-          "unit": "1玉",
-          "category": "野菜・果物"
-        },
-        {
-          "name": "玉ねぎ",
-          "price": 199,
-          "unit": "1袋",
-          "category": "野菜・果物"
-        },
-        {
-          "name": "みかん",
-          "price": 39,
-          "unit": "1個",
-          "category": "野菜・果物"
-        },
-        {
-          "name": "りんご",
-          "price": 299,
-          "unit": "1袋",
-          "category": "野菜・果物"
-        },
-        {
-          "name": "伊藤ハム アルトバイエルン",
+          "name": "アルトバイエルン",
           "price": 230,
           "unit": "1束",
           "category": "精肉"
-        },
-        {
-          "name": "成分無調整牛乳",
-          "price": 258,
-          "unit": "1本",
-          "category": "卵・乳製品"
-        },
-        {
-          "name": "日清食品 カップヌードル各種",
-          "price": 101,
-          "unit": "1個",
-          "category": "その他"
         },
         {
           "name": "ハウス バーモントカレー",
@@ -498,37 +784,31 @@
           "category": "その他"
         },
         {
-          "name": "コカ・コーラ 各種",
-          "price": 138,
-          "unit": "1本",
-          "category": "飲料・お酒"
-        },
-        {
-          "name": "アサヒ スーパードライ",
-          "price": 808,
-          "unit": "6缶パック",
-          "category": "飲料・お酒"
-        },
-        {
           "name": "アサヒ ドライゼロ",
           "price": 563,
           "unit": "6缶パック",
           "category": "飲料・お酒"
         },
         {
-          "name": "P&G ボールド ジェルボール つめかえ超ウルトラジャンボ",
+          "name": "ブラックニッカ クリア ハイボール",
+          "price": 126,
+          "unit": "1本",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "ボールド ジェルボール つめかえ用",
           "price": 818,
           "unit": "1個",
           "category": "日用品"
         },
         {
-          "name": "花王 ワイドハイターEXパワー つめかえ用",
-          "price": 381,
-          "unit": "1個",
+          "name": "キッチン泡ハイター",
+          "price": 145,
+          "unit": "1本",
           "category": "日用品"
         },
         {
-          "name": "BOXティッシュ",
+          "name": "ボックスティッシュ",
           "price": 299,
           "unit": "5個パック",
           "category": "日用品"
