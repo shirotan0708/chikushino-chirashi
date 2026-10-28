@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T02:09:56.967Z",
+  "updatedAt": "2026-10-28T02:13:52.190Z",
   "categories": [
     "精肉",
     "鮮魚",
@@ -52,69 +52,57 @@
           "category": "野菜・果物"
         },
         {
-          "name": "対象野菜＆果物（小松菜・白ねぎ・早生ふじ等）",
-          "price": 138,
-          "unit": "各1袋",
-          "category": "野菜・果物"
-        },
-        {
-          "name": "旬のフルーツ（トキりんご・ぶどう・みかん等）",
+          "name": "旬のフルーツ（トキ・レモン・みかん等）",
           "price": 298,
           "unit": "各1袋",
           "category": "野菜・果物"
         },
         {
-          "name": "グリコ ZEPPIN",
-          "price": 298,
-          "unit": "1箱",
-          "category": "その他"
+          "name": "野菜＆果物（小松菜・白ねぎ・ピーマン等）",
+          "price": 138,
+          "unit": "各1個",
+          "category": "野菜・果物"
         },
         {
-          "name": "エースコック スーパーカップ1.5倍",
+          "name": "十勝ミルクきわだつヨーグルト",
           "price": 138,
-          "unit": "1個",
-          "category": "その他"
-        },
-        {
-          "name": "十勝ミルク きわだつヨーグルト",
-          "price": 138,
-          "unit": "1パック",
+          "unit": "",
           "category": "卵・乳製品"
         },
         {
-          "name": "カルビー じゃがりこ",
+          "name": "スーパーカップ1.5倍",
+          "price": 138,
+          "unit": "",
+          "category": "その他"
+        },
+        {
+          "name": "ZEPPIN カレールウ",
+          "price": 298,
+          "unit": "",
+          "category": "その他"
+        },
+        {
+          "name": "じゃがりこ",
           "price": 128,
-          "unit": "1個",
+          "unit": "",
           "category": "その他"
         },
         {
-          "name": "不二家 カントリーマアム",
+          "name": "カントリーマアム ミドルパック",
           "price": 198,
-          "unit": "1袋",
+          "unit": "",
           "category": "その他"
         },
         {
-          "name": "男前豆腐店 おとこまえ京の絹とうふ",
-          "price": 108,
-          "unit": "1パック",
-          "category": "その他"
-        },
-        {
-          "name": "コーンクリームコロッケ / のりっこチキン",
+          "name": "クリアアサヒ",
           "price": 178,
-          "unit": "1パック",
-          "category": "惣菜"
-        },
-        {
-          "name": "アサヒ クリアアサヒ",
-          "price": 178,
-          "unit": "1本",
+          "unit": "1缶",
           "category": "飲料・お酒"
         },
         {
-          "name": "サントリー -196℃",
+          "name": "-196℃ 無糖",
           "price": 138,
-          "unit": "1本",
+          "unit": "1缶",
           "category": "飲料・お酒"
         }
       ],
@@ -127,8 +115,12 @@
       "id": "ropia-chikushino",
       "name": "ロピア筑紫野シュロアモール店",
       "sourceUrl": "https://tokubai.co.jp/%E3%83%AD%E3%83%94%E3%82%A2/291677",
-      "status": "no_image_found",
-      "items": []
+      "status": "extract_failed",
+      "items": [],
+      "flyerImageUrls": [
+        "https://image.tokubai.co.jp/images/bargain_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=602/107691818.jpg?1793087045",
+        "https://image.tokubai.co.jp/images/bargain_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=602/107691819.jpg?1793087046"
+      ]
     },
     {
       "id": "marukyo-harada",
@@ -137,22 +129,26 @@
       "status": "extract_failed",
       "items": [],
       "flyerImageUrls": [
-        "https://ipqcache2.shufoo.net/c/2026/10/19/c/3509326921552/index/img/0_200_0.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/10/19/c/3509326921552/index/img/0_200_1.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/10/19/c/3509326921552/index/img/0_200_2.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/10/19/c/3509326921552/index/img/0_200_3.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/10/19/c/3509326921552/index/img/1_200_0.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/10/19/c/3509326921552/index/img/1_200_1.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/10/19/c/3509326921552/index/img/1_200_2.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/10/19/c/3509326921552/index/img/1_200_3.jpg"
+        "https://ipqcache2.shufoo.net/c/2026/10/26/c/8150566928836/index/img/0_200_0.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/10/26/c/8150566928836/index/img/0_200_1.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/10/26/c/8150566928836/index/img/0_200_2.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/10/26/c/8150566928836/index/img/0_200_3.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/10/26/c/8150566928836/index/img/1_200_0.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/10/26/c/8150566928836/index/img/1_200_1.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/10/26/c/8150566928836/index/img/1_200_2.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/10/26/c/8150566928836/index/img/1_200_3.jpg"
       ]
     },
     {
       "id": "direx-hara",
       "name": "ダイレックス原店",
       "sourceUrl": "https://tokubai.co.jp/%E3%83%80%E3%82%A4%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9/33142",
-      "status": "no_image_found",
-      "items": []
+      "status": "extract_failed",
+      "items": [],
+      "flyerImageUrls": [
+        "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=630/9794477.jpg?1792664277",
+        "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=630/9794478.jpg?1792664277"
+      ]
     }
   ]
 }
