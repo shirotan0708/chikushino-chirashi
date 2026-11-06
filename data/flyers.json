@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T03:21:58.911Z",
+  "updatedAt": "2026-11-06T03:36:15.039Z",
   "categories": [
     "精肉",
     "鮮魚",
@@ -60,8 +60,141 @@
       "id": "direx-hara",
       "name": "ダイレックス原店",
       "sourceUrl": "https://tokubai.co.jp/%E3%83%80%E3%82%A4%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9/33142",
-      "status": "extract_failed",
-      "items": [],
+      "status": "ok",
+      "items": [
+        {
+          "name": "玉ねぎ",
+          "price": 69,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "じゃがいも",
+          "price": 59,
+          "unit": "1個",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "みかん",
+          "price": 199,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "ピーマン",
+          "price": 139,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "りんご",
+          "price": 299,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "バナナ",
+          "price": 49,
+          "unit": "1カット",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "国産 豚肉",
+          "price": 178,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 鶏肉",
+          "price": 68,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 豚小間切",
+          "price": 68,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "刺身盛合せ",
+          "price": 555,
+          "unit": "1パック",
+          "category": "鮮魚"
+        },
+        {
+          "name": "若鶏竜田揚げ",
+          "price": 178,
+          "unit": "100gあたり",
+          "category": "惣菜"
+        },
+        {
+          "name": "アサヒ スーパードライ",
+          "price": 1269,
+          "unit": "6缶パック",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "サントリー 角ハイボール",
+          "price": 1052,
+          "unit": "6缶パック",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "赤ワイン",
+          "price": 499,
+          "unit": "1本",
+          "category": "飲料・お酒"
+        },
+        {
+          "name": "キットカット ミニ",
+          "price": 222,
+          "unit": "1袋",
+          "category": "その他"
+        },
+        {
+          "name": "花王 ニュービーズ 特大",
+          "price": 636,
+          "unit": "",
+          "category": "日用品"
+        },
+        {
+          "name": "ライオン ソフラン プレミアム消臭 詰替",
+          "price": 545,
+          "unit": "",
+          "category": "日用品"
+        },
+        {
+          "name": "キレイキレイ 薬用泡ハンドソープ 詰替",
+          "price": 178,
+          "unit": "",
+          "category": "日用品"
+        },
+        {
+          "name": "エリエール ティシュー",
+          "price": 590,
+          "unit": "5個パック",
+          "category": "日用品"
+        },
+        {
+          "name": "桐灰カイロ はる",
+          "price": 272,
+          "unit": "10個入",
+          "category": "日用品"
+        },
+        {
+          "name": "ルックプラス バスタブクレンジング 詰替",
+          "price": 390,
+          "unit": "",
+          "category": "日用品"
+        },
+        {
+          "name": "ファブリーズ 詰替 特大",
+          "price": 527,
+          "unit": "",
+          "category": "日用品"
+        }
+      ],
       "flyerImageUrls": [
         "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=630/9805938.jpg?1793173896",
         "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=630/9805939.jpg?1793173897"
