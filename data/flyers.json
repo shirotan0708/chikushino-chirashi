@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T05:14:36.556Z",
+  "updatedAt": "2026-11-18T04:16:55.938Z",
   "categories": [
     "精肉",
     "鮮魚",
@@ -43,25 +43,186 @@
       "id": "marukyo-harada",
       "name": "マルキョウ原田店",
       "sourceUrl": "https://www.shufoo.net/pntweb/shopDetail/291159/",
-      "status": "extract_failed",
-      "items": [],
+      "status": "ok",
+      "items": [
+        {
+          "name": "国産 若鶏モモ肉(生)",
+          "price": 99,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 豚肉ロース 各種",
+          "price": 199,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 豚肉ブロック(肩ロース・バラ)",
+          "price": 219,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "レタス",
+          "price": 159,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "トマト",
+          "price": 199,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "人参",
+          "price": 199,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "ぐんま名月りんご",
+          "price": 199,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "アメリカ産 豚肉ロース とんかつ用",
+          "price": 129,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 豚肉バラスライス",
+          "price": 219,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 豚肉小切れ",
+          "price": 129,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 若鶏ムネ肉(生)",
+          "price": 79,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "交雑牛小切れ",
+          "price": 499,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 豚肉ヒレブロック",
+          "price": 209,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 豚肉バラ厚切焼肉用",
+          "price": 219,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "国産 若鶏手羽先(生)",
+          "price": 109,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "佐賀県人みかん",
+          "price": 580,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "国産たまご",
+          "price": 199,
+          "unit": "1パック(10個入)",
+          "category": "卵・乳製品"
+        },
+        {
+          "name": "DM三井製糖 上白糖",
+          "price": 219,
+          "unit": "1kg",
+          "category": "その他"
+        },
+        {
+          "name": "ハウス バーモントカレー",
+          "price": 219,
+          "unit": "",
+          "category": "その他"
+        },
+        {
+          "name": "国産 若鶏モモ肉(生)",
+          "price": 119,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "サンふじりんご",
+          "price": 199,
+          "unit": "1玉",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "愛媛みかん",
+          "price": 599,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "国産 豚小切れ",
+          "price": 139,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "オーストラリア産 牛肉モモ切り落とし",
+          "price": 299,
+          "unit": "100gあたり",
+          "category": "精肉"
+        },
+        {
+          "name": "マイルド130みかん",
+          "price": 499,
+          "unit": "1袋",
+          "category": "野菜・果物"
+        },
+        {
+          "name": "ハローボックスティッシュ",
+          "price": 249,
+          "unit": "150W×5P",
+          "category": "日用品"
+        }
+      ],
       "flyerImageUrls": [
-        "https://ipqcache2.shufoo.net/c/2026/11/09/c/6315966948338/index/img/0_200_0.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/11/09/c/6315966948338/index/img/0_200_1.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/11/09/c/6315966948338/index/img/0_200_2.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/11/09/c/6315966948338/index/img/0_200_3.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/11/09/c/6315966948338/index/img/1_200_0.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/11/09/c/6315966948338/index/img/1_200_1.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/11/09/c/6315966948338/index/img/1_200_2.jpg",
-        "https://ipqcache2.shufoo.net/c/2026/11/09/c/6315966948338/index/img/1_200_3.jpg"
+        "https://ipqcache2.shufoo.net/c/2026/11/16/c/1710256957231/index/img/0_200_0.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/11/16/c/1710256957231/index/img/0_200_1.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/11/16/c/1710256957231/index/img/0_200_2.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/11/16/c/1710256957231/index/img/0_200_3.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/11/16/c/1710256957231/index/img/1_200_0.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/11/16/c/1710256957231/index/img/1_200_1.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/11/16/c/1710256957231/index/img/1_200_2.jpg",
+        "https://ipqcache2.shufoo.net/c/2026/11/16/c/1710256957231/index/img/1_200_3.jpg"
       ]
     },
     {
       "id": "direx-hara",
       "name": "ダイレックス原店",
       "sourceUrl": "https://tokubai.co.jp/%E3%83%80%E3%82%A4%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9/33142",
-      "status": "no_image_found",
-      "items": []
+      "status": "extract_failed",
+      "items": [],
+      "flyerImageUrls": [
+        "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=630/9846948.jpg?1794415599",
+        "https://image.tokubai.co.jp/images/bargain_office_leaflets/w=552,h=444,mc=true,wo=0,ho=0,cw=552,ch=444,aw=552/9846949.jpg?1794415598"
+      ]
     }
   ]
 }
